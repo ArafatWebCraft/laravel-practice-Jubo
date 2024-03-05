@@ -1,0 +1,34 @@
+*{margin: 0;padding: 0;}
+body{
+    background-color: #F5F9FA;
+
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.sign_up{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px -9px 110px -12px rgba(204,194,204,1);
+    -moz-box-shadow: 1px -9px 110px -12px rgba(204,194,204,1);
+    box-shadow: 1px -9px 110px -12px rgba(204,194,204,1);
+    max-width: 400px;
+    min-height: 500px;
+    margin-top: 40px;
+    position: relative;
+}
+.submit{
+    text-align: center;
+    background-color:#1F1F1F ;
+}
+.sign_up::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    background-color: #e70d0da3;
+    top: -28px;
+    left: 0;
+    border-radius: 2px;
+}

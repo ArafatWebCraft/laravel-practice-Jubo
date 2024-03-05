@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <CommandLine>
+      <envFiles>
+        <find>C</find>
+        <find>$PROJECT_DIR$/../../php/php.exe</find>
+      </envFiles>
+      <PhpTestInterpreterSettings>
+        <option name="interpreterName" value="C:\xampp\php\php.exe" />
+      </PhpTestInterpreterSettings>
+    </CommandLine>
+    <option name="envFilePaths">
+      <list>
+        <option value="C" />
+        <option value="$PROJECT_DIR$/../../php/php.exe" />
+      </list>
+    </option>
+    <method v="2" />
+  </configuration>
+</component>

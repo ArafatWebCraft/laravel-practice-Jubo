@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form action="connect.php" method="post">
+		 
+            <h1>Registration </h1>
+            <div class="container">
+                <div class="form_n">
+                    <label for="fname">Full Name</label><br>
+                        <input required placeholder="Enter Your name" type="text" id="fname" name="fname"><br>
+                        <label for="email">Email</label><br>
+                        <input placeholder="Enter Your Email" required type="email" id="email" name="email"><br>
+                        <label for="password">password</label><br>
+                        <input placeholder="Enter Your password" required type="password" id="password" name="password">
+                </div>
+                <div class="form_n2">
+                    <label for="username">Username</label><br>
+                    <input required placeholder="Enter Your username" type="text" id="usrname" name="s_username"><br>
+                    <label for="phone">Phone</label><br>
+                    <input placeholder="Enter Your Phone Number" required type="number" id="phone" name="phone"><br>
+                    <label for="c_password">Confirm Password</label><br>
+                    <input placeholder="Enter Your confirm password" required type="password" id="c_password" name="c_password">
+                </div>
+            </div>
+            <div class="gender_f">
+                <h2>Gender</h2>
+                <input type="radio" name="gender" id="gender1"><label for="gender1">Male</label>
+                <input type="radio" name="gender" id="gender2"><label for="gender2">Female</label>
+                <input type="radio" name="gender" id="gender3"><label for="gender3">Others</label>
+            </div>
+            <div class="country">
+                <select name="country" id="h_country">
+                    <option value="Bangdladesh" selected>Bangdladesh</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                </select>
+            </div>
+            <input type="submit" value="Rigster" name="register" id="register">
+        </form>
+    </div>
+</body>
+</html>

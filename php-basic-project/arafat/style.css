@@ -1,0 +1,96 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.form{
+    background-color: #52adb578;
+    width: 100%;
+    overflow: hidden;
+}
+form{
+    width: 600px;
+    margin: 100px auto;
+    background: #57c5c8e0;
+    border-radius: 7px;
+}
+form h1{
+    color:black;
+    font-size: 25px;
+    font-family: arial;
+    padding: 16px 29px;
+}
+.container{
+
+}
+.form_n{
+    float: left;
+    width: 250px;
+    margin-left: 30px;
+}
+.form_n2{
+    float: right;
+    width: 275px;
+}
+.form_n2 input{
+    padding: 7px;
+    border-color:rgb(82, 73, 73);
+    outline: none;
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #9b9090;
+}
+.form_n2 label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    line-height: 21px;
+}
+.form_n label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    line-height: 21px;
+}
+.form_n input{
+    padding: 7px;
+    border-color: rgb(82, 73, 73);
+    outline: none;
+    margin-bottom: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #9b9090;
+}
+.gender_f {
+    width: 100%;
+    padding: 0px 31px;
+}
+.gender_f h2{
+    margin-bottom: 10px;
+    color: #0e0f0f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gender_f input{
+    margin-right: 10px;
+}
+.gender_f label{
+    margin-right: 90px;
+    font-size: 18px;
+
+}
+.country {
+    padding: 15px 32px;
+}
+select#h_country{
+    padding:10px 10px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+    text-align: left;
+}
+#register{
+    width: 90%;
+    padding: 12px 0px;
+    margin: 5px 13px 25px 29px;
+    font-size: 21px;
+    outline: none;
+    border-radius: 9px;
+    border: 1px solid #9c8a8a;
+}
